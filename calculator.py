@@ -12,7 +12,7 @@ def divide(a, b):
     return a / b
 
 def power(a, b):
-    return a ** b
+    return a + b
 
 def percentage(total, percent):
     return (total * percent) / 100

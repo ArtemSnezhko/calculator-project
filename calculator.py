@@ -14,6 +14,8 @@ def divide(a, b):
     return a / b
 
 def power(a, b):
+    if a < 0 or b < 0:
+        return "Ошибка: числа должны быть положительными"
     return a ** b
 
 def percentage(total, percent):
